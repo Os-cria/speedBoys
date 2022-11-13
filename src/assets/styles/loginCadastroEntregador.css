@@ -1,0 +1,155 @@
+body{
+    background-color: #F4F4F4;
+}
+.containerTelaEntregador{
+    margin: 0px;
+    padding: 0px;
+    height: 100%
+
+}
+.titleEntregador{
+    margin-top: 90px;
+    font-weight: bold;
+    color: #8CC63F;
+}
+.ce-left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+.ce-right{
+display: flex;
+}
+
+.cadastre-se{
+    color: black;
+}
+.cadastre-se:hover{
+    cursor: pointer;
+    color: #8CC63F;
+}
+.labelCadastro{
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.textoLoginEntregador{
+    width: 100%;
+}
+
+.formEntregador {
+    /* lembrar de mudar a borda para branca*/
+    border-radius: 20px 0px;
+    border: 5px solid white;
+    background-color: #F4F4F4;
+    border-image-slice: 1;
+    border-width: 5px;
+    margin-bottom: 7px;
+  }
+
+  .formEntregador::after {
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    border-image-source: linear-gradient(to right, #090d04, #273518, #435f25, #638d31, #85bd3c);
+    content: '';
+    z-index: -1;
+    border-radius: 16px;
+}
+.esqueciSenha{
+    cursor: pointer;
+    text-align: end;
+    margin-right: 20%;
+    color: #A4A4A4;
+}
+
+.esqueciSenha:hover{
+    color: #8CC63F;
+
+}
+
+.celularEntregador{
+    margin-top: 60px;
+    height: 70vh;
+    width: auto;
+    margin-bottom: 22px;
+}
+.labelCelularEntregador{
+    margin-top:150px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    width: 150px;
+    padding: 0px;
+}
+
+.googlePlayEntregador{
+    width: 150px;
+    height: auto;
+    padding: 0px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.labelEntregador{
+    margin-top: 20px;
+    padding: 0px;
+    width: 60%;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.labelCadastroEntregador{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.labelCadastroCliente{
+    color: #85bd3c;
+    font-size: 14px;
+    font-weight: bold;
+}
+.divCard{
+    display: flex;
+    flex-direction: row;
+}
+.cardLogin{
+    margin-right: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    border-radius: 20px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid white;
+    background-color: #F4F4F4;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cardLoginSelected{
+    border: 3px solid #8CC63F;
+}
+
+.cardLogin>p{
+    margin: 0px;
+    padding: 0px;
+}
+.imgCard{
+    height: 100%;
+    width: 30px;
+}
+
+.linkContrato{
+    cursor: pointer;
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #860B0B;
+}
+
+.linkContrato:hover{
+    color: #638d31;
+}

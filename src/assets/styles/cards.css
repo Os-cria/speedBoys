@@ -1,0 +1,47 @@
+.listaCards{
+    margin: 0px;
+    color: white;
+    
+}
+.card-par{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7BB52F;
+    padding: 55px 60px 55px 60px;
+}
+.card-impar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8CC63F;
+    padding: 55px 60px 55px 60px;
+}
+
+.tituloCardImpar{
+    font-weight: bold;
+    color: black;
+    background-color: #8CC63F;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.tituloCardPar{
+    font-weight: bold;
+    color: black;
+    background-color: #7BB52F;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.textoCardPar{
+    font-weight: 400;
+    background-color: #7BB52F;
+}
+.textoCardImpar{
+    font-weight: 400;
+    background-color: #8CC63F;
+}

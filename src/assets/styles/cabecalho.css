@@ -1,0 +1,13 @@
+.title{
+    color: black;
+    font-weight: bold;
+}
+
+.title:hover{
+    color: #8CC63F;
+    font-weight: bold;
+}
+
+.linkNavBar{
+    text-decoration: none;
+}

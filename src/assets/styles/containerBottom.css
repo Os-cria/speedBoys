@@ -1,0 +1,26 @@
+.containerBottom{
+    margin: 0px;
+    padding-top: 0px;
+    background-color: #F8F9FA;
+    color: black;
+    font-weight: 500;
+}
+
+.suaLogo{
+    height: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.cb-left{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.cb-right{
+    padding-left: 70px;
+    padding-top: 70px;
+}
+.celularLogo{
+    max-height: 100%;
+    width: auto;
+}

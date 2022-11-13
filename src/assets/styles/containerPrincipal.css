@@ -1,0 +1,131 @@
+
+.divPrincipal{
+    max-width: 100%;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.titlePrincipal{
+    color: #8CC63F;
+    font-weight: bold;
+}
+.subTitle{
+    margin-bottom: 20px;
+}
+
+.label{
+    font-size: 12px;
+    color: #adadad
+}
+
+.formControl{
+    border-radius: 20px 0px;
+    width: 80%;
+}
+
+.formControl:focus {
+    box-shadow: 0 0 0 0;
+    transition-delay: 0.1s;
+    border: 5px solid #3d5721;
+} 
+
+.btnCalcular{
+    font-weight: bold;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #090d04, #273518, #435f25, #638d31, #85bd3c);
+    border-radius: 20px 0px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+.btnCalcular:hover{
+    color:#b6fd5a
+}
+
+.border-gradient {
+    border-radius: 20px 0px;
+    border: 7px solid #6da135;
+    border-image-slice: 1;
+    border-width: 5px;
+  }
+
+  .border-gradient::after {
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    border-image-source: linear-gradient(to right, #090d04, #273518, #435f25, #638d31, #85bd3c);
+    content: '';
+    z-index: -1;
+    border-radius: 16px;
+}
+
+.logoCalculator{
+    max-height: 100%;
+    width: auto;
+}
+
+.blur{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(15, 15, 15, 0.322);
+    z-index: 1;
+}
+
+.modalCalcular{
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+    top: 410px;
+    height: 220px;
+    z-index: 10;
+    padding: 10px;
+    text-align: center;
+    background-color: white; 
+}
+.hidden{
+    visibility: hidden;
+}
+
+.titleModalCadastro{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.clModalCalcular{
+    margin: 0px;
+}
+
+.crModalCalcular{
+    font-weight: 500;
+    text-align: left;
+    margin: 0px;
+
+}
+
+.crModalCalcular>p{
+    margin-top: 30px;
+}
+
+.link{
+    color: #75A932;
+}
+
+.link:hover{
+    color: #3d5721;
+}
+.closeCircle{
+    cursor: pointer;
+    font-size: 25px;
+    position: relative;
+    left: 600px;
+    color: red;
+}
+
+.icones{
+    font-size: 40px;
+    color: #6da135;
+}

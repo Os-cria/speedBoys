@@ -1,0 +1,66 @@
+
+@media(min-width: 700px) {
+
+
+}
+.containerFluxo{
+    margin: 0px;
+    padding-top: 0px;
+    background-color: #F8F9FA;
+    color: black;
+    font-weight: 400;
+}
+.flex{
+    display: flex;
+}
+.red{
+    border: 1px solid red;
+}
+.cf-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    justify-items: flex-end;
+}
+.cf-right{
+}
+
+.borda-direita{
+    border-right: 3px solid #3d5721;
+}
+
+.borda-esquerda{
+    border-left: 3px solid #3d5721;
+}
+
+.titulo{
+    color: #8CC63F;
+}
+
+
+.paragrafo{
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 50%;
+}
+.googlePlayLogo{
+    margin: 0px;
+    height: auto;
+    width: 100px;
+}
+.circulo{
+    position: relative;
+    left: 47.6%;
+    background: #8CC63F;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.fimFluxo{
+    height: 100px;
+    background-image: linear-gradient(to bottom, #F8F9FA, #ebffe3, #8CC63F);
+}
+

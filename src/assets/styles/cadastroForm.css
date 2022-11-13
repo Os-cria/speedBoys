@@ -1,0 +1,101 @@
+.formCadastroEntregador {
+    /* lembrar de mudar a borda para branca*/
+    border-radius: 20px 0px;
+    border: 7px solid #6da135;
+    border-image-slice: 1;
+    border-width: 5px;
+    margin-bottom: 7px;
+  }
+
+.formCadastroEntregador:focus{
+    box-shadow: 0 0 0 0;
+    transition-delay: 0.1s;
+    border: 5px solid #3d5721;
+}
+.formCadastroEntregador::after {
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    border-image-source: linear-gradient(to right, #090d04, #273518, #435f25, #638d31, #85bd3c);
+    content: '';
+    z-index: -1;
+    border-radius: 16px;
+}
+
+.flexForm{
+    display: flex;
+}
+
+.selectTipoServico{
+    border-color: #638d31;
+    background-color: #638d31;
+    color: white;
+}
+
+.fluxoCadastroEntregador{
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.btnFluxoCadastroEntregador{
+    background-color: white;
+    border: 2px solid #273518;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    z-index: 10;
+}
+.btnFluxoCadastroEntregador:hover{
+    border: 2px solid white;
+    background-color: #273518;
+    color: white;
+    text-decoration: none;
+    z-index: 10;
+}
+.btnActive{
+    border: 2px solid white;
+    background-color: #273518;
+    color: white;
+
+}
+
+.linhaFluxoCadastro{
+    position: relative;
+    bottom: 43px;
+    margin-left: 30px;
+    width: 320px;
+    z-index: -1;
+}
+
+input[type='file'] {
+    display: none
+  }
+  
+  .labelFile {
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #638d31;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    padding: 6px 20px
+  }
+ 
+
+.btnVoltar{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #638d31;
+    font: bold;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    color: #090d04;
+    padding: 0px;
+}
+
+.btnVoltar:hover{
+    border: 2px solid white;
+    background-color: #638d31;
+}
